@@ -1,10 +1,16 @@
 # PyQuiz <DEV> [^1]
 Ratespiel  mit Fragen der Open Trivia DB (und eigenen) in Python in mehreren <i>Personalities</i>:
 
-- CLI (Shell/Termin)
-- GUI (tkinter)
+- [x] CLI (Shell/Termin)
+- [ ] GUI (tkinter???)
+- [ ] Web-Interface (streamlit || Django ??)
 
-[Hinweise zum Setup](doq/setup.md) 
+
+
+
+- [Hinweise zum Setup](doq/setup.md) 
+- [Technische Dokumentation](doq/dad.md) 
+
 
 
 - [ ] ...
@@ -28,4 +34,4 @@ Ratespiel  mit Fragen der Open Trivia DB (und eigenen) in Python in mehreren <i>
 
 
 
-[^1]: Foo in Entwicklung - <u>nicht produktionsreif</u>
+[^1]: In Entwicklung - <u>nicht</u> produktionsreif
