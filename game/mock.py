@@ -6,7 +6,7 @@
 import pandas as pd
 import json
 from typing import Self, Any
-
+import game.mock 
 class Mock:
     """ Mock data for:
             - developing phase
@@ -22,7 +22,7 @@ class Mock:
         tmp = json.load(open(self.mock_file))
     
         self.questions = tmp['results']
-        self.filterable = pd.DataFrame(data = self.questions, columns=self.question[0].keys()) 
+        self.filterable = pd.DataFrame(data = self.questions, columns=self.questions[0].keys()) 
        
     def get_question_bool(self):
         return {'type': 'boolean', 'difficulty': 'medium', 'category': 'History', 'question': 'Ottoman Empire was created in 1299.', 'correct_answer': 'True', 'incorrect_answers': ['False']}

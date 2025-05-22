@@ -2,13 +2,24 @@
 
 In diesem Dokument wird die technische Umsetzung des Projektes beschrieben
 
-## Anwendung Sequenzdiagramm Beispiel Webversion
+
+## Persistenzschicht
+
+- RDBMS (SQLITE, oder ???)
+- Filesystem als JSON
+- Filesystem als XML ???
+- Filesystem als ```__pycache__``` ???
+
+## Funktionale Anforderungen
+
+### Anwendung Sequenzdiagramm Beispiel Webversion
 
 ```mermaid
 sequenceDiagram
     autonumber
-    UserAgent->>Webserver: https://host.example.com/trivia_game?amount={}
-    Webserver->>Python: https://host.example.com/trivia_game?amount={}
+    UserAgent->>Webserver: https://host.example.com/trivia_game?amount={$FOO}
+    Webserver->>Python: Generiere {$FOO} zufällige Fragen
+
     Webserver-->>UserAgent: Anzeige der Daten (Generiertes HTML) 
     UserAgent->>Webserver: Eingabe der Änderungen -> POST
     Webserver->>Python:  diff(DF, DF_edit) --> generiere SQL Stmts (UPDATE ...) 
