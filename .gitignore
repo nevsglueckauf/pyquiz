@@ -14,9 +14,17 @@ __pycache__/
 
 # Local stuff & Environments
 tmp/
+
 .DS_Store
 .vscode
 DC_transfer
 README.local.md
 .env
 .venv
+
+# rm me here after rework:
+api_doc.md
+t00lZ/
+
+# do not call me on Tuesday!
+foo.rb

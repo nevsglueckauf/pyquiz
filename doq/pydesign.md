@@ -26,9 +26,9 @@ Sub-Package für die Repräsentation der Daten als Entity-Instanzen
 
 ## Datenstrukturen
 
-Die generelle Datenstruktur welche hier Verwedung findet ist [```pandasDataFrame```](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
+Die generelle Datenstruktur welche hier Verwendung findet ist [```pandas.DataFrame```](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
 
-Aus dem JSON (andere: tbc.) von Open Trivia DB werden DataFrames erzeugt.
+Aus dem JSON (andere: tbc.) von Open Trivia DB werden ```DataFrames``` erzeugt.
 
 ### Motivation
 

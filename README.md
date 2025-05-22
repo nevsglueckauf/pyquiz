@@ -43,3 +43,4 @@ zu minimieren, resp. Netzwerkverkehr durch lokale <kbd>I/O</kbd>-Operationen zu 
 
 [^1]: In frühem Entwicklungsstadium - **nicht produktionsreif!**
 Der Entwicklungsforschritt wird [protokolliert](doq/change_history.md)
+

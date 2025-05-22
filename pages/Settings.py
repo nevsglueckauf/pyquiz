@@ -1,4 +1,4 @@
 import streamlit as st
 
-st.markdown('### Foo')
+st.markdown('### Settings')
 st.markdown("""Sven""")

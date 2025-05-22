@@ -1,4 +1,4 @@
 import streamlit as st
 
-st.markdown('### Projektarbeit bei Datacraft')
+st.markdown('### Statistics, Logs')
 st.markdown("""Sven""")

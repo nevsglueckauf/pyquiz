@@ -2,9 +2,9 @@
 
 - <time datetime="2025-05-22">22.05.2025: </time>Beginn des Projektes
     - [x] Beginn der Dokumentation 
-    - [ ] Requirement Specification (Lastenheft lite)
-    - [ ] System Specification (Pflichtenheft lite)
-    - [ ] Applikationsdesign
+    - [x] Requirement Specification (Lastenheft lite)
+    - [x] System Specification (Pflichtenheft lite)
+    - [x] Applikationsdesign
         - [x] Dateistruktur / Organissation des Packages
         - [ ] Festlegung der zu Unit testenden Einheiten (Auswahl Fragen; Antworten prüfen)
     - [x] Abzug von 50 Datensätzen für Entwicklung / Testing (Verhinderung unnötiger API-Requests)

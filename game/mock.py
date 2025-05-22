@@ -19,7 +19,8 @@ class Mock:
     """
     questions:list
     filterable:pd.DataFrame
-    mock_file:str = 'data/question.json'  
+    #mock_file:str = 'data/question.json'  
+    mock_file:str = 'data/easy_gen.json'  
     curr_fltr:str
     
     def __init__(self):
