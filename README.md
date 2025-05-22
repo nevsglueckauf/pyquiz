@@ -1,8 +1,5 @@
+<link rel = "stylesheet" href="style.css">
 # PyQuiz <DEV> [^1]
-<style>
-    del{color:red}
-    ins{color:green}
-</style>
 >[!Disclaimer]: in German language, because of the primary audience (in my current <em>continuing education</em>) - python code: comments, function, class variable names will be in English
 
 ## Projektidee (Abtract)
