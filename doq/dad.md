@@ -2,6 +2,7 @@
 
 In diesem Dokument wird die technische Umsetzung des Projektes beschrieben
 
+Der Python-spezifische TEil findet sich hier: [PyDesgin](doq/pydesign.md)
 
 ## Persistenzschicht
 

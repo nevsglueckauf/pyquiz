@@ -3,12 +3,14 @@
 >[!Disclaimer]: in German language, because of the primary audience (my current <em>continuing education</em>)
 
 
-Ratespiel  mit Fragen der [Open Trivia DB](https://opentdb.com/) (und eigenen - <i>tbd.</i>) in Python in mehreren <i>Personalities</i>:
+Ratespiel  mit Fragen der [Open Trivia DB](https://opentdb.com/) (und eigenen - <i>tbd.</i>) in Python in mehreren <i>[User Interfaces](https://en.wikipedia.org/wiki/User_interface)</i> - (externer Link):
 
 - [x] CLI (Shell/Termin)
 - [ ] GUI (tkinter???)
 - [ ] Web-Interface (streamlit || Django ??)
 
+
+Obige Task liste spiegelt den Stand der Entwicklung wieder ([x] meint angefangen/beendet)
 
 ## Persistenz vs. Live
 
@@ -52,3 +54,4 @@ zu minimieren, resp. Netzwerkverkehr durch lokale <kbd>I/O</kbd>-Operationen zu 
 
 
 [^1]: In Entwicklung - **nicht produktionsreif!**
+Der Enticklungsforschritt wird [protokolliert](doq/change_history.md)
