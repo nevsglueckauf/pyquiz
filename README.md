@@ -42,4 +42,4 @@ Da die Aktualisierung des Fragenkatalogs seitens Trivia DB in 'überschaubarer' 
 zu minimieren, resp. Netzwerkverkehr durch lokale <kbd>I/O</kbd>-Operationen zu ersetzen.
 
 [^1]: In frühem Entwicklungsstadium - **nicht produktionsreif!**
-Der Enticklungsforschritt wird [protokolliert](doq/change_history.md)
+Der Entwicklungsforschritt wird [protokolliert](doq/change_history.md)
