@@ -9,14 +9,18 @@ Ratespiel  mit Fragen der [Open Trivia DB](https://opentdb.com/) (und eigenen - 
 - [ ] GUI (tkinter???)
 - [ ] Web-Interface (streamlit || Django ??)
 
+Obige Task Task-Liste spiegelt den Stand der Entwicklung wieder ([x] meint angefangen/beendet) Details sind [hier](doq/change_history.md).
+
 ## Weitere (projektinterne) Dokumente
+
 - [Hinweise zum Setup](doq/setup.md) 
 - [Technische Dokumentation](doq/dad.md) 
     - [Lastenheft lite](doq/reqspec.md)
     - [Pflichtenheft lite](doq/sysspec.md)
+    - [Dokumentation des Fortschrittes der Entwicklung](doq/change_history.md)
 
 
-Obige Task liste spiegelt den Stand der Entwicklung wieder ([x] meint angefangen/beendet)
+
 
 ## Persistenz vs. Live
 
@@ -32,29 +36,6 @@ Die Zusammenstellung der Fragen erfolgt aus folgenden alternativen Quellen:
 
 Da die Aktualisierung des Fragenkatalogs seitens Trivia DB in 'überschaubarer' Frequenz erfolgt, wird dieser (applikations-) lokal gespeichert, um Latenzen
 zu minimieren, resp. Netzwerkverkehr durch lokale <kbd>I/O</kbd>-Operationen zu ersetzen.
-
-
-
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [x] ...
-- [ ] ...
-
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [ ] ...
-- [x] ...
-- [ ] ...
-
-
-
-
-
-
 
 [^1]: In frühem Entwicklungsstadium - **nicht produktionsreif!**
 Der Enticklungsforschritt wird [protokolliert](doq/change_history.md)
