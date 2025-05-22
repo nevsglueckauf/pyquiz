@@ -7,7 +7,7 @@ Ratespiel  mit Fragen der [Open Trivia DB](https://opentdb.com/) (und eigenen - 
 
 - [x] CLI (Shell/Termin)
 - [ ] GUI (tkinter???)
-- [ ] Web-Interface (streamlit || <del>Django</del> <ins>!!</ins>)
+- [ ] Web-Interface (streamlit || <del style="color:red;font-weight:bold">Django</del> <ins>!!</ins>)
 
 Obige Task-Liste spiegelt den Stand der Entwicklung wieder ([x] meint angefangen/beendet) Details sind [hier](doq/change_history.md).
 

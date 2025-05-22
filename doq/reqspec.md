@@ -1,4 +1,4 @@
-# Requirement Specification (Lastenheft lite)
+# Requirement Specification (Lastenheft) lite
 
 ## Nichtfunktionale Anforderungen
 

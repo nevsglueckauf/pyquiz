@@ -1,1 +1,1 @@
-# System Specification (Lastenheft lite)
+# System Specification (Lastenheft) lite
