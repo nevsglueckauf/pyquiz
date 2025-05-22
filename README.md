@@ -1,4 +1,3 @@
-<link rel = "stylesheet" href="style.css">
 # PyQuiz <DEV> [^1]
 >[!Disclaimer]: in German language, because of the primary audience (in my current <em>continuing education</em>) - python code: comments, function, class variable names will be in English
 
