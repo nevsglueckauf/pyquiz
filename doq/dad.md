@@ -11,7 +11,17 @@ Der Python-spezifische Teil findet sich hier: [PyDesgin](pydesign.md)
 - Filesystem als XML ???
 - Filesystem als ```__pycache__``` ???
 
+
+## Dokumentation 
+
+### Tools
+
+Markdown (insbes. Mermaid) wegen der hervorragenden Unterstützung durch github
+
+
+
 ## Funktionale Anforderungen
+--> sys_spec
 
 ### Anwendung Sequenzdiagramm Beispiel Webversion
 

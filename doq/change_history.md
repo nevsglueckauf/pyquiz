@@ -6,4 +6,5 @@
     - [ ] System Specification (Pflichtenheft lite)
     - [ ] Applikationsdesign
         - [x] Dateistruktur / Organissation des Packages
-        - [ ] Festlegung der zu Unit testenden Einheiten
+        - [ ] Festlegung der zu Unit testenden Einheiten (Auswahl Fragen; Antworten prüfen)
+    - [x] Abzug von 50 Datensätzen für Entwicklung / Testing (Verhinderung unnötiger API-Requests)

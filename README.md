@@ -2,12 +2,18 @@
 
 >[!Disclaimer]: in German language, because of the primary audience (my current <em>continuing education</em>)
 
-
+## Projektidee (Abtract)
 Ratespiel  mit Fragen der [Open Trivia DB](https://opentdb.com/) (und eigenen - <i>tbd.</i>) in Python in mehreren <i>[User Interfaces](https://en.wikipedia.org/wiki/User_interface)</i> - (externer Link):
 
 - [x] CLI (Shell/Termin)
 - [ ] GUI (tkinter???)
 - [ ] Web-Interface (streamlit || Django ??)
+
+## Weitere (projektinterne) Dokumente
+- [Hinweise zum Setup](doq/setup.md) 
+- [Technische Dokumentation](doq/dad.md) 
+    - [Lastenheft lite](doq/reqspec.md)
+    - [Pflichtenheft lite](doq/sysspec.md)
 
 
 Obige Task liste spiegelt den Stand der Entwicklung wieder ([x] meint angefangen/beendet)
@@ -26,9 +32,6 @@ Die Zusammenstellung der Fragen erfolgt aus folgenden alternativen Quellen:
 
 Da die Aktualisierung des Fragenkatalogs seitens Trivia DB in 'überschaubarer' Frequenz erfolgt, wird dieser (applikations-) lokal gespeichert, um Latenzen
 zu minimieren, resp. Netzwerkverkehr durch lokale <kbd>I/O</kbd>-Operationen zu ersetzen.
-
-- [Hinweise zum Setup](doq/setup.md) 
-- [Technische Dokumentation](doq/dad.md) 
 
 
 
