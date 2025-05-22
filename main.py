@@ -4,18 +4,27 @@
 
 import game.mock
 import game.app
+import game.entity
 import pandas 
+import random
+import html
+
 
 mock = game.mock.Mock()
 df = pandas.DataFrame(mock.questions)
-catz = df['category'].unique()
-catz.sort()
 
-print('\n'.join(list(catz)))
+df["category"] = df['category'].apply(lambda x: html.unescape(x))
 
-dta = mock.filter_by('category').equals('History')
+print(df["category"].unique)
+#df["question"] = html.unescape(df["question"])
+#print(df)
+exit()
+#print('lorem Ipsum'.title())
+print(12)
+
+#dta = mock.filter_by('category').equals('History')
 my_app = game.app.App()
-print(my_app)
+#print(my_app)
 # print((len(mock.questions)))
 #questions = game.entity.QuestionList(game.mock.questions)
 

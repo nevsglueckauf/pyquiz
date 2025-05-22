@@ -6,6 +6,8 @@
 import pandas as pd
 import json
 from typing import Self, Any
+import random
+import html
 #import game.mock 
 
 
@@ -22,10 +24,12 @@ class Mock:
     
     def __init__(self):
         tmp = json.load(open(self.mock_file))
-    
+        
         self.questions = tmp['results']
-        self.filterable = pd.DataFrame(data = self.questions, columns=self.questions[0].keys()) 
-       
+        # headers = [i.title() for i in self.questions[0].keys()]
+        headers = self.questions[0].keys()
+        self.filterable = pd.DataFrame(data = self.questions, columns=headers) 
+        
     def get_question_bool(self):
         """ Getting mocked exampled 
 

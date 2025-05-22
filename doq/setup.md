@@ -31,3 +31,8 @@ Bootstrap starten mit Umlenkung von ```STDIN``` und ```STDOUT``` nach ```dev/nul
 (.venv) svenschrodt@Thanos pyquiz % python -m streamlit run webapp.py > /dev/null  2>&1 &
 ```
 
+Für Wintendo Boxen
+
+```
+.venv\Scripts\activate
+```
