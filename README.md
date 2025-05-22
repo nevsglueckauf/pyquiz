@@ -53,5 +53,5 @@ zu minimieren, resp. Netzwerkverkehr durch lokale <kbd>I/O</kbd>-Operationen zu 
 
 
 
-[^1]: In Entwicklung - **nicht produktionsreif!**
+[^1]: In frühem Entwicklungsstadium - **nicht produktionsreif!**
 Der Enticklungsforschritt wird [protokolliert](doq/change_history.md)
