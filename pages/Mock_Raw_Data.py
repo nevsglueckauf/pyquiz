@@ -13,9 +13,12 @@ mock = game.mock.Mock()
 
 
 st.markdown('# Mock data')
-st.markdown("## Rohdaten aus JSON (**nicht** gemerged und random sorted**)")
+st.markdown("""Rohdaten aus JSON (
+    - **nicht** gemerged und 
+    - **nicht random sorted**)""")
 #dta = mock.filterable
-dta = mock.filter_by('category').equals('Geography')
+dta = mock.filterable.head(22)
+mock.filter_by('category').equals('Geography')
 edited = st.data_editor(dta,  hide_index=True, use_container_width=False)
         
          
