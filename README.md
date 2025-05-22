@@ -1,6 +1,6 @@
 # PyQuiz <DEV> [^1]
 
->[!Disclaimer]: in German language, because of the primary audience (my current <em>continuing education</em>)
+>[!Disclaimer]: in German language, because of the primary audience (in my current <em>continuing education</em>)
 
 ## Projektidee (Abtract)
 Ratespiel  mit Fragen der [Open Trivia DB](https://opentdb.com/) (und eigenen - <i>tbd.</i>) in Python in mehreren <i>[User Interfaces](https://en.wikipedia.org/wiki/User_interface)</i> - (externer Link):

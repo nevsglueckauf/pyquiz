@@ -8,5 +8,5 @@
         - [x] Dateistruktur / Organissation des Packages
         - [ ] Festlegung der zu Unit testenden Einheiten (Auswahl Fragen; Antworten prüfen)
     - [x] Abzug von 50 Datensätzen für Entwicklung / Testing (Verhinderung unnötiger API-Requests)
-    - [x] Python Coding (Prototyp ohne UI nur lauffähig in Shell oder via Unit Tests)
-    - [] Python Coding - Erste Unit Tests
+    - [x] Python Coding: Prototyp ohne UI nur lauffähig in Shell oder via Unit Tests
+    - [ ] Python Coding - Erste Unit Tests

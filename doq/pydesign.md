@@ -1,5 +1,29 @@
 # Python 
 
+## Package
+
+Das <var>Main Package</var> heißt ```game```
+
+### game.app
+
+Sub-Package für die Szerung der Apps (Shell,GUI, Web)
+
+
+### game.api
+
+Sub-Package für den Zugriff auf die HTTP RESTful API von Open Trivia DB
+
+
+
+### game.mock
+
+Sub-Package für den Zugriff auf daten aus dem lokalen Cache (in der APP und für Tests)
+
+### game.entity
+
+Sub-Package für die Repräsentation der Daten als Entity-Instanzen
+
+
 ## Datenstrukturen
 
 Die generelle Datenstruktur welche hier Verwedung findet ist [```pandasDataFrame```](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
