@@ -1,17 +1,20 @@
 # Design & Architecture Dossier
 
-## Sequence diagram 
+In diesem Dokument wird die technische Umsetzung des Projektes beschrieben
+
+## Anwendung Sequenzdiagramm Beispiel Webversion
 
 ```mermaid
 sequenceDiagram
     autonumber
-    
-    App->>API: https://opentdb.com/api.php?amount={:AMOUNT}
-    API-->>App: List of questions (JSON)
-    App->>Python:  Parse JSON, generate entity instances 
-    Python->>App:  "mix corr./ incorr. answers, shuffle answer order, render question view"
-    App-->>User: Show rendered trivia game
-    User-->>App: Input (for answers) + <SUBMIT>
-
+    UserAgent->>Webserver: https://host.example.com/trivia_game?amount={}
+    Webserver->>Python: https://host.example.com/trivia_game?amount={}
+    Webserver-->>UserAgent: Anzeige der Daten (Generiertes HTML) 
+    UserAgent->>Webserver: Eingabe der Änderungen -> POST
+    Webserver->>Python:  diff(DF, DF_edit) --> generiere SQL Stmts (UPDATE ...) 
+    Python->>DB:  execute SQLs
+    DB-->>Python: Ok
+    Python-->Webserver: Aktualisiere Ansicht
+    Webserver-->>UserAgent: Anzeige der Daten (Generiertes HTML) 
 ```
 

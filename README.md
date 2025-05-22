@@ -34,4 +34,4 @@ Ratespiel  mit Fragen der Open Trivia DB (und eigenen) in Python in mehreren <i>
 
 
 
-[^1]: In Entwicklung - <u>nicht</u> produktionsreif
+[^1]: In Entwicklung - **nicht produktionsreif!**
