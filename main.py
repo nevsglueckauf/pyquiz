@@ -4,8 +4,15 @@
 
 import game.mock
 import game.app
+import pandas 
 
 mock = game.mock.Mock()
+df = pandas.DataFrame(mock.questions)
+catz = df['category'].unique()
+catz.sort()
+
+print('\n'.join(list(catz)))
+
 dta = mock.filter_by('category').equals('History')
 my_app = game.app.App()
 print(my_app)

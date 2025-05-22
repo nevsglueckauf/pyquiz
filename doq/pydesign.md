@@ -6,7 +6,7 @@ Das <var>Main Package</var> heißt ```game```
 
 ### game.app
 
-Sub-Package für die Szerung der Apps (Shell,GUI, Web)
+Sub-Package für die Steuerung der Apps (Shell,GUI, Web)
 
 
 ### game.api

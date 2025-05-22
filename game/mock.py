@@ -27,6 +27,11 @@ class Mock:
         self.filterable = pd.DataFrame(data = self.questions, columns=self.questions[0].keys()) 
        
     def get_question_bool(self):
+        """ Getting mocked exampled 
+
+        Returns:
+            _type_: _description_
+        """
         return {'type': 'boolean', 'difficulty': 'medium', 'category': 'History', 'question': 'Ottoman Empire was created in 1299.', 'correct_answer': 'True', 'incorrect_answers': ['False']}
     
     def get_question_multiple(self):

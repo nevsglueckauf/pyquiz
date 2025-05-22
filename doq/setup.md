@@ -1,6 +1,6 @@
 # Setup 
 
-Besipiel für  UNIX like OS (MacOS, Linux) 
+Beispiel für  UNIX like OS (MacOS, Linux, Solaris etc.) 
 
 ## Repo clonen
 
@@ -24,5 +24,10 @@ Besipiel für  UNIX like OS (MacOS, Linux)
 
 <code><span style="color:green">(.venv)</span> sven@Thanos pyquiz % </code><kbd>pip -r req.txt</kbd>
 
+## Web App starten
+Bootstrap starten mit Umlenkung von ```STDIN``` und ```STDOUT``` nach ```dev/null```
 
+```sh
+(.venv) svenschrodt@Thanos pyquiz % python -m streamlit run webapp.py > /dev/null  2>&1 &
+```
 
