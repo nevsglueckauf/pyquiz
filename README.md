@@ -9,15 +9,20 @@ Ratespiel  mit Fragen der [Open Trivia DB](https://opentdb.com/) (und eigenen - 
 - [ ] GUI (tkinter???)
 - [ ] Web-Interface (streamlit || <del style="color:red;font-weight:bold">Django</del> <ins>!!</ins>)
 
+
 Obige Task-Liste spiegelt den Stand der Entwicklung wieder ([x] meint angefangen/beendet) Details sind [hier](doq/change_history.md).
 
 ## Weitere (projektinterne) Dokumente
 
+
 - [Hinweise zum Setup](doq/setup.md) 
-- [Technische Dokumentation](doq/dad.md) 
+- [Technische Dokumentation der App](doq/dad.md) 
     - [Lastenheft lite](doq/reqspec.md)
     - [Pflichtenheft lite](doq/sysspec.md)
     - [Dokumentation des Fortschrittes der Entwicklung](doq/change_history.md)
+    - [Non- "Python Standard Library" Packages](doq/non_psl_libs.md)
+    - [Coding Styles](doq/ccc.md)
+    - [Python spez.](doq/pydesign.md)
 
 
 
