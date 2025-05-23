@@ -4,7 +4,7 @@
 
 ## Projektidee (Abstract)
 
-Ratespiel  mit Fragen der [Open Trivia DB](https://opentdb.com/) (und eigenen - <i>tbd.</i>) in Python in mehreren <i>[User Interfaces](https://en.wikipedia.org/wiki/User_interface)</i> - (externer Link):
+Ratespiel  mit Fragen der [Open Trivia DB](https://opentdb.com/) (und eigenen - <i>tbd.</i>) in Python in mehreren <i>[User Interfaces](https://en.wikipedia.org/wiki/User_interface)</i> ↗:
 
 - [x] CLI (Shell / Terminal)
 - [ ] GUI (tkinter???)
@@ -76,7 +76,4 @@ Sven
 [^1]: In frühem Entwicklungsstadium - **nicht produktionsreif!**
 Der Entwicklungsforschritt wird [protokolliert](doq/change_history.md)
 
-[^2]: Erklärung zur Task-Liste
-  - [ ] geplant 
-  - [x] begonnen 
-  - [x] ✓ beendet
+[^2]: Erklärung zur Task-Liste: [ ] geplant, [x] begonnen, [x] ✓ beendet
