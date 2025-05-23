@@ -12,6 +12,9 @@
     - [ ] Python Coding - Erste Unit Tests
 
 
+    -- 
 
-    [ ] geplant [x] begonnen  [x] ✓ beendet
+    - [ ] geplant 
+    - [x] begonnen  
+    - [x] ✓ beendet
 
