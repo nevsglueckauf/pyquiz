@@ -4,17 +4,15 @@
 
 ## Projektidee (Abstract)
 
-
-
-
 Ratespiel  mit Fragen der [Open Trivia DB](https://opentdb.com/) (und eigenen - <i>tbd.</i>) in Python in mehreren <i>[User Interfaces](https://en.wikipedia.org/wiki/User_interface)</i> - (externer Link):
 
 - [x] CLI (Shell / Terminal)
 - [ ] GUI (tkinter???)
-- [ ] Web-Interface (streamlit || <del style="color:red;font-weight:bold">Django</del> <ins>!!</ins>)
+- [x] Web-Interface (streamlit || <del style="color:red;font-weight:bold">Django</del> <ins>!!</ins>)
 
+[^2]
 
-Obige Task-Liste spiegelt den Stand der Entwicklung wieder ([x] geplant [x] begonnen [x] ✓ beendet) Details finden sich [hier](doq/change_history.md).
+ Details zum Stand der Entwicklung finden sich [hier](doq/change_history.md).
 
 ## Weitere (projektinterne) Dokumente
 
@@ -66,7 +64,7 @@ zu minimieren, resp. Netzwerkverkehr durch lokale <kbd>I/O</kbd>-Operationen zu 
 
 ### Foo
 
-- Das Inline-CSS und einige HTML Attribute (z.B: title) werden zwar von github beim Rendering heraus gefiltert, aber meine IDE interpretiert das wunderbar. 
+- Das Inline-CSS und einige HTML Attribute (z.B: ```title```) werden zwar von github beim Rendering heraus gefiltert, aber meine IDE interpretiert das wunderbar. 
 Das bleibt also drin!
 
 
@@ -77,3 +75,8 @@ Sven
 
 [^1]: In frühem Entwicklungsstadium - **nicht produktionsreif!**
 Der Entwicklungsforschritt wird [protokolliert](doq/change_history.md)
+
+[^2]: Erklärung zur Task-Liste
+ - [ ] geplant 
+ - [x] begonnen 
+ - [x] ✓ beendet
