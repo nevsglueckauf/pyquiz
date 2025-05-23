@@ -11,3 +11,8 @@ Es lohnt sich sehr, den eigenen Code stringent zu gestalten/kommentieren/dokumen
 
 </blockquote>
 
+## Verwendete Style Conventions
+
+- [Docstrings - PEP 257](https://peps.python.org/pep-0257/)
+- [Codetags - PEP 350](https://peps.python.org/pep-0350/)
+- und natürlich: [PEP 8 – Style Guide for Python Code](https://peps.python.org/pep-0008/)

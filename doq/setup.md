@@ -1,6 +1,4 @@
-# Setup 
-
-Beispiel für  UNIX like OS (MacOS, Linux, Solaris etc.) 
+# Setup Beispiel für  UNIX like OS (MacOS, Linux, Solaris etc.) 
 
 ## Repo clonen
 
@@ -28,10 +26,10 @@ Beispiel für  UNIX like OS (MacOS, Linux, Solaris etc.)
 Bootstrap starten mit Umlenkung von ```STDIN``` und ```STDOUT``` nach ```dev/null```
 
 ```sh
-(.venv) svenschrodt@Thanos pyquiz % python -m streamlit run webapp.py > /dev/null  2>&1 &
+(.venv) svenschrodt@Thanos pyquiz % python -m streamlit run PyQuiz_Home.py > /dev/null  2>&1 &
 ```
 
-Für Wintendo Boxen
+## Für Wintendo Boxen beachten
 
 ```
 .venv\Scripts\activate

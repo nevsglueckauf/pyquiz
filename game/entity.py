@@ -6,6 +6,7 @@
 import pandas as pd
 import random
 import html
+import json
 from typing import Any, Self, Dict, List, Optional, Sequence, Tuple, Union
 
 
@@ -30,6 +31,7 @@ class Question:
         self.dta["answers"] = self.dta["incorrect_answers"]
         self.dta["answers"].append(self.dta["correct_answer"])
         self.dta["question"] = html.unescape(self.dta["question"])
+        self.dta["answers"] = list(map(lambda x: html.unescape(x), self.dta["answers"]))
         random.shuffle(self.dta["answers"])  # get questions in a randomized order
         
     def answer(self, answer: str) -> Self:
@@ -81,3 +83,26 @@ class QuestionList:
 
     def equals(self, val: any) -> pd.DataFrame:
         return self.filterable[self.filterable[self.curr_fltr] == val]
+
+class Categories:
+    catz:pd.DataFrame # of dict
+    cat_fl:str = 'data/category.json'
+    
+    def __init__(self):
+        
+        self.catz = pd.DataFrame(json.load(open(self.cat_fl))['trivia_categories'])
+        
+    def all(self):
+        all = ['any']
+        return all + list(self.catz['name'])      
+        
+    def byId(self, cid:int):
+        
+        #print(self.catz[self.catz['id']==cid])
+        return self.catz[self.catz['id']==cid]['name'].iloc[0]
+    
+    def getId(self, cname:str):
+        
+        return self.catz[self.catz['name']==cname]['id'].iloc[0]
+    
+    

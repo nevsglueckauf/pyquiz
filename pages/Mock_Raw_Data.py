@@ -1,6 +1,7 @@
 import streamlit as st
 import game.mock
 import game.app
+import game.entity
 
 mock = game.mock.Mock()
 #dta = mock.questions['category'].unique()
@@ -18,6 +19,7 @@ st.markdown("""Rohdaten aus JSON (
     - **nicht random sorted**)""")
 #dta = mock.filterable
 dta = mock.filterable.head(22)
+#ql = game.entity.QuestionList(mock.questions)
 mock.filter_by('category').equals('Geography')
 edited = st.data_editor(dta,  hide_index=True, use_container_width=False)
         

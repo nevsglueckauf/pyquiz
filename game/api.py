@@ -7,6 +7,8 @@ import requests
 
 
 class Endpoints:
+    
+    # https://api.opentrivia.de/?amount=100
     USE_SESS_TOK_URI = "https://opentdb.com/api.php?amount=10&token={}" # URI for using a session token
     RETR_SESS_TKN_URI = "https://opentdb.com/api_token.php?command=request" # URI for retrieve a session token
     RST_SESS_TKN_URI = "https//opentdb.com/api_token.php?command=reset&token={}" # URI for reset a session token

@@ -5,30 +5,22 @@
 import game.mock
 import game.app
 import game.entity
-import pandas 
+import pandas as pd
 import random
 import html
 from t00lZ.scrape import Scrape as Scrape
 
-Scrape.me(23)
-exit()
-mock = game.mock.Mock()
-df = pandas.DataFrame(mock.questions)
 
-df["category"] = df['category'].apply(lambda x: html.unescape(x))
-
-print(df["category"].unique)
-#df["question"] = html.unescape(df["question"])
-#print(df)
-
-#print('lorem Ipsum'.title())
-print(12)
-
-#dta = mock.filter_by('category').equals('History')
-my_app = game.app.App()
-#print(my_app)
-# print((len(mock.questions)))
-#questions = game.entity.QuestionList(game.mock.questions)
+mock = game.mock.Mock() 
+df = mock.filterable
 
 
-#print(questions)
+
+l = len(df)
+rnd = random.randint(0, l-1)
+print(f'Länge: {l} Zufallszahl: {rnd}')
+
+question = df.iloc[rnd]
+my_quest = game.entity.Question(question)
+print(my_quest.question)
+print(my_quest.answers, type(my_quest.answers))
