@@ -13,6 +13,5 @@
 
 
 
-    [x] geplant [x] begonnen  [x] ✓ beendet
+    [ ] geplant [x] begonnen  [x] ✓ beendet
 
-    
