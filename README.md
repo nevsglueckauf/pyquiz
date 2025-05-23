@@ -77,6 +77,6 @@ Sven
 Der Entwicklungsforschritt wird [protokolliert](doq/change_history.md)
 
 [^2]: Erklärung zur Task-Liste
- - [ ] geplant 
- - [x] begonnen 
- - [x] ✓ beendet
+  - [ ] geplant 
+  - [x] begonnen 
+  - [x] ✓ beendet
