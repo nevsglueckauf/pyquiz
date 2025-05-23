@@ -1,15 +1,15 @@
 # PyQuiz <DEV> [^1]
->[!Disclaimer]: in German language, because of the primary audience (in my current <em>continuing education</em>) - python code: comments, function, class variable names will be in English
+>[!Disclaimer]: in German language, because of the primary audience (in my current <em>continuing education</em>) - python code: comments, function, class and variable names will be in English
 
 ## Projektidee (Abtract)
 Ratespiel  mit Fragen der [Open Trivia DB](https://opentdb.com/) (und eigenen - <i>tbd.</i>) in Python in mehreren <i>[User Interfaces](https://en.wikipedia.org/wiki/User_interface)</i> - (externer Link):
 
-- [x] CLI (Shell/Termin)
+- [x] CLI (Shell / Terminal)
 - [ ] GUI (tkinter???)
 - [ ] Web-Interface (streamlit || <del style="color:red;font-weight:bold">Django</del> <ins>!!</ins>)
 
 
-Obige Task-Liste spiegelt den Stand der Entwicklung wieder ([x] meint angefangen/beendet) Details sind [hier](doq/change_history.md).
+Obige Task-Liste spiegelt den Stand der Entwicklung wieder ([x] geplant [x] begonnen [x] ✓ beendet) Details finden sich [hier](doq/change_history.md).
 
 ## Weitere (projektinterne) Dokumente
 
