@@ -1,15 +1,15 @@
 import streamlit as st
-import game.mock
-import game.app
-import game.entity
+import pyquiz.mock
+import pyquiz.app
+import pyquiz.entity
 
-mock = game.mock.Mock()
+mock = pyquiz.mock.Mock()
 #dta = mock.questions['category'].unique()
 
 
 
 #dta = mock.filter_by('Category').equals('History')
-#my_app = game.app.App()
+#my_app = pyquiz.app.App()
 
 
 
@@ -19,7 +19,7 @@ st.markdown("""Rohdaten aus JSON (
     - **nicht random sorted**)""")
 #dta = mock.filterable
 dta = mock.filterable.head(22)
-#ql = game.entity.QuestionList(mock.questions)
+#ql = pyquiz.entity.QuestionList(mock.questions)
 mock.filter_by('category').equals('Geography')
 edited = st.data_editor(dta,  hide_index=True, use_container_width=False)
         

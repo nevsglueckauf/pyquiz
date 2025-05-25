@@ -1,11 +1,11 @@
 import streamlit as st
-import game.entity
-from game.controller import Controller
+import pyquiz.entity
+from pyquiz.controller import Controller
 
 ctr = Controller(st=st)
 
 ctr.meta('Spielen', '▶️')
-cats = game.entity.Categories()
+cats = pyquiz.entity.Categories()
 
 with st.form("my_form"):
    st.write("Kategorie")

@@ -1,22 +1,21 @@
 import streamlit as st
-import game.entity
-import game.config
-import game.mock
-import game.entity
+import pyquiz.entity
+import pyquiz.config
+import pyquiz.mock
 import random
-from game.controller import Controller
+from pyquiz.controller import Controller
 
-ctr = Controller(st=st)
+ctr = pyquiz.controller.Controller(st=st)
 ctr.meta("Frage (Prototyp)", "🤸‍♂")
-cats = game.entity.Categories()
-cfg = game.config.Config()
-mock = game.mock.Mock()
+cats = pyquiz.entity.Categories()
+cfg = pyquiz.config.Config()
+mock = pyquiz.mock.Mock()
 st.markdown('## Zufallsauswahl')
 df = mock.filterable
 l = len(df)
 rnd = random.randint(0, l - 1)
 question = df.iloc[rnd]
-my_quest = game.entity.Question(question)
+my_quest = pyquiz.entity.Question(question)
 
 with st.form("my_question"):
     st.html("<fieldset><legend>" + " | ".join([my_quest.category, my_quest.type, my_quest.difficulty]) + "</legend></fieldset>")

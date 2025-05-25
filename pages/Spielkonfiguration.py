@@ -1,13 +1,13 @@
 import streamlit as st
-import game.entity
-import game.config
-from game.controller import Controller
+import pyquiz.entity
+import pyquiz.config
+from pyquiz.controller import Controller
 
 ctr = Controller(st=st)
 
 ctr.meta("Spiel konfigurieren", "🎬")
-cats = game.entity.Categories()
-cfg = game.config.Config()
+cats = pyquiz.entity.Categories()
+cfg = pyquiz.config.Config()
 
 with st.form("my_form"):
     my_amount = st.slider(

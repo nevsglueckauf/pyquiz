@@ -1,7 +1,7 @@
 import streamlit as st
-import game.controller
+import pyquiz.controller
 
-ctr = game.controller.Controller(st=st)
+ctr = pyquiz.controller.Controller(st=st)
 ctr.meta(title='Nur zu Testzwecken!!!', icon='🙏')
 def step_1():
     st.title("Step 1: Snowflake Credentials")

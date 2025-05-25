@@ -1,7 +1,7 @@
 # App and runners for environment (cli, gui, web)
 # AUTHOR: Sven Schrodt<sven.schrodt@schrodt.club
 # SINCE: 2025-05-16
-from game.entity import Question
+from pyquiz.entity import Question
 
 class Runner:
     

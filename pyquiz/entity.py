@@ -2,7 +2,7 @@
 # AUTHOR: Sven Schrodt<sven.schrodt@schrodt.club
 # SINCE: 2025-05-16
 #
-# Question - representing single trivia game question
+# Question - representing single trivia .game question
 import pandas as pd
 import random
 import html

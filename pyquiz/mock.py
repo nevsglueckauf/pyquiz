@@ -8,7 +8,7 @@ import json
 from typing import Self, Any
 import random
 import html
-#import game.mock 
+#import pyquiz.mock 
 
 
 class Mock:

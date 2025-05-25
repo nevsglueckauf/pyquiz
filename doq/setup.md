@@ -26,7 +26,7 @@
 Bootstrap starten mit Umlenkung von ```STDIN``` und ```STDOUT``` nach ```dev/null```
 
 ```sh
-(.venv) svenschrodt@Thanos pyquiz % python -m streamlit run PyQuiz_Home.py > /dev/null  2>&1 &
+(.venv) svenschrodt@Thanos pyquiz % python -m streamlit run Home.py  > /dev/null  2>&1 &
 ```
 
 ## Für Wintendo Boxen beachten

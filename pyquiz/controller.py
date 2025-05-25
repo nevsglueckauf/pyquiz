@@ -1,8 +1,8 @@
 import streamlit  # type: ignore
 import pandas as pd
-import game.entity
-import game.config
-from game.controller import Controller
+import pyquiz.entity
+import pyquiz.config
+
 
 
 class Controller:
@@ -22,8 +22,8 @@ class Controller:
 class ViewHelper:
 
     def __init__(self, st:streamlit):
-        self.cats = game.entity.Categories()
-        self.cfg = game.config.Config()
+        self.cats = pyquiz.entity.Categories()
+        self.cfg = pyquiz.config.Config()
         self.st = st
 
     def cats(self):

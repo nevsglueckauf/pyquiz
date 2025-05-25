@@ -1,10 +1,10 @@
 import streamlit as st
-import game.entity
-import game.config
-import game.mock
-import game.entity
+import pyquiz.entity
+import pyquiz.config
+import pyquiz.mock
+import pyquiz.entity
 import random
-from game.controller import Controller
+from pyquiz.controller import Controller
 import pandas as pd 
 import numpy as np
 ctr = Controller(st=st)
