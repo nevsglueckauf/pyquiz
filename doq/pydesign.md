@@ -2,7 +2,7 @@
 
 ## Package
 
-Das <var>Main Package</var> heißt ```game```
+Das <var>Main Package</var> heißt ```pyquiz```
 
 ### pyquiz.app
 
@@ -24,11 +24,24 @@ Sub-Package für den Zugriff auf daten aus dem lokalen Cache (in der APP und fü
 Sub-Package für die Repräsentation der Daten als Entity-Instanzen
 
 
+
+## UML - Klassendiagramme
+
+```mermaid
+classDiagram
+    class Controller{
+        + _init__(self, st: streamlit)
+        + meta(self, title: str = "", icon: str = "")
+        + save_success(self, msg="Daten gespeichert 💾")
+    }
+
+
+```
 ## Datenstrukturen
 
 Die generelle Datenstruktur welche hier Verwendung findet ist [```pandas.DataFrame```](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
 
-Aus dem JSON (andere: tbc.) von Open Trivia DB werden ```DataFrames``` erzeugt.
+Aus den JSON-Ressourcen (andere: tbd.) von Open Trivia DB werden ```DataFrames``` erzeugt.
 
 ### Motivation
 
