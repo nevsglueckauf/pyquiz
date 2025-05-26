@@ -35,7 +35,10 @@ Sub-Package für die Repräsentation der Daten als Entity-Instanzen
 
 ```mermaid
 classDiagram
+    Controller *-- ViewHelper
+    Controller *-- OTDBApi
     Runner <|-- CliRunner
+    QuestionList "1" --> "*" Question
 
     class Controller{
         + __ init__(self, st: streamlit)
@@ -65,11 +68,26 @@ classDiagram
         + __ init__(self)
         + render(self, question:Question)
     }
-    
-    
+
     class App{
         + __ init__(self)
     }
+
+    class QuestionList{
+         + __ init__(self)
+         + filter_by()
+         + equals()
+    }
+
+    class Question{
+         + __ init__(self)
+         +  def solve(self):
+         + __getattr__(self, key):
+         + __str__(self) -> str:
+         + __sanitize_key(self, key: str):
+         + __sanitize_answer(self, input):
+    }
+
     
 ```
 ## Datenstrukturen
