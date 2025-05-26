@@ -35,7 +35,7 @@ sequenceDiagram
     Python->>Webserver: Sende Request an: https://opentdb.com/api.php?amount={$FOO} 
     Webserver->>Python: Sende Response als JSON: {"response_code":0,"results":[...] }
     Python->>Python: Parse Response
-    Note over User,Webserver: Führe Kontextbehandlung durch, Mische Inkorr. und korrekte Antworte, Randomisiere Reihenfolge
+    Note over User,Webserver: Führe Kontextbehandlung durch, Mische Inkorr. und korrekte Antworten, Randomisiere Reihenfolge
     Python->>Python:  Generiere View für User Interface
     alt ist graphical user interface
         Python->>TTK_GUI: Starte GUI 
