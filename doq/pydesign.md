@@ -6,7 +6,7 @@ Das <var>Main Package</var> heißt ```pyquiz```
 
 ### pyquiz.app
 
-Sub-Package für die Steuerung der Apps (Shell,GUI, Web)
+Sub-Package für die Steuerung der Apps (Shell, GUI, Web)
 
 
 ### pyquiz.api
@@ -25,17 +25,24 @@ Sub-Package für die Repräsentation der Daten als Entity-Instanzen
 
 
 
-## UML - Klassendiagramme
+## UML - Klassendiagramme [^1]
 
 ```mermaid
 classDiagram
     class Controller{
-        + _init__(self, st: streamlit)
+        + __ init__(self, st: streamlit)
         + meta(self, title: str = "", icon: str = "")
         + save_success(self, msg="Daten gespeichert 💾")
     }
 
+class ViewHelper{
 
+    + def __ init__(self, st:streamlit)
+    + def cats(self)
+    + def amount(self)
+    + def diff(self)
+
+}
 ```
 ## Datenstrukturen
 
@@ -45,5 +52,10 @@ Aus den JSON-Ressourcen (andere: tbd.) von Open Trivia DB werden ```DataFrames``
 
 ### Motivation
 
-- Robuste und performante Operationen auf Pandas-Datenstrukturen
+- Robuste und performante Operationen auf (Pandas)- Datenstrukturen gewährleisten
 
+
+
+--- 
+
+[^1]: __ init__ - Methoden enthöten Space im , damit der Text nicht als __Fett__ markiert wird : 
