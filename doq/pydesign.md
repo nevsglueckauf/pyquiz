@@ -103,5 +103,4 @@ Aus den JSON-Ressourcen (andere: tbd.) von Open Trivia DB werden ```DataFrames``
 
 
 --- 
-
-[^1]: __ init__ - Methoden enthalten Space im Namen nach "__", damit der Text nicht als __Fett__ markiert wird : 
+[^1]: Dunder- Methoden enthalten hier <var>Space</var> im Namen nach "__", damit der Text nicht als __Fett__ markiert wird : 

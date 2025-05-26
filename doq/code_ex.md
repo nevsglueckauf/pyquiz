@@ -1,0 +1,8 @@
+# Beispiele in Codes
+
+
+## Fragenkatalog filtern
+
+```python
+df_fil = df.filter_by('Category').equals('History')
+```

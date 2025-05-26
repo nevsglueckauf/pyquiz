@@ -33,3 +33,5 @@ class OTDBApi:
         self.response_code = response.status_code
         self.dta = response.json()
         return self.dta["results"]
+    
+    
