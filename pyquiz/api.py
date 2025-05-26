@@ -40,13 +40,13 @@ class OTDBApi:
         self.dta = response.json()
         return self.dta["results"]
     
-    def get_session_token(self):
+    def get_session_token(self) -> str:
         response = requests.get(Endpoints.RETR_SESS_TKN_URI)
         self.http_response = response
         self.response_code = response.status_code
         self.dta = response.json()
         self.session_token = self.dta['token']
-        return response
+        return self.session_token
     
     def get_foo(self):
         uri = self.__sanitize_uri(Endpoints.RTV_AMNT_QST.format(5))
