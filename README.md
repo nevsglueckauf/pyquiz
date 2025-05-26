@@ -35,7 +35,7 @@ Die Zusammenstellung der Fragen erfolgt aus folgenden alternativen Quellen:
 1. Live Request zur API
 2. Abfrage der Caches
     - 2.1 Filesystem JSON
-    - 2.2 SQL DB??
+    - 2.2 SQL DB?? (Verschoben auf ???)
     - 2.3 Sonstige (applikations-) lokale Caches???
 
 ### Motivation

@@ -1,5 +1,17 @@
 # Beispiele in Codes
 
+## Abfrage der API 
+
+```python
+import pyquiz.api
+
+api = pyquiz.api.OTDBApi()
+
+api.
+```
+
+
+
 
 ## Fragenkatalog filtern
 

@@ -31,6 +31,7 @@ class Question:
         self.dta["answers"] = self.dta["incorrect_answers"]
         self.dta["answers"].append(self.dta["correct_answer"])
         self.dta["question"] = html.unescape(self.dta["question"])
+        # Unescape all answers 
         self.dta["answers"] = list(map(lambda x: html.unescape(x), self.dta["answers"]))
         random.shuffle(self.dta["answers"])  # get questions in a randomized order
         

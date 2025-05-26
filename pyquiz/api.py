@@ -25,8 +25,9 @@ class OTDBApi:
     main_uri: str = Endpoints.RTV_AMNT_QST
     response_code: int = 666
     session_token:str = None
-
     use_tok:bool = True
+    
+    http_response:requests.models.Response = None
     
     def __init__(self):
         if self.use_tok:
@@ -34,12 +35,14 @@ class OTDBApi:
 
     def get_questions_raw(self, number: int = 10) -> dict:
         response = requests.get(self.main_uri.format(number))
+        self.http_response = response
         self.response_code = response.status_code
         self.dta = response.json()
         return self.dta["results"]
     
     def get_session_token(self):
         response = requests.get(Endpoints.RETR_SESS_TKN_URI)
+        self.http_response = response
         self.response_code = response.status_code
         self.dta = response.json()
         self.session_token = self.dta['token']

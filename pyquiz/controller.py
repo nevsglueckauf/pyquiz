@@ -6,6 +6,8 @@ import pyquiz.config
 
 
 class Controller:
+    """ Controller for page content
+    """
     def __init__(self, st: streamlit):
         self.st = st
 
@@ -20,7 +22,8 @@ class Controller:
 
 
 class ViewHelper:
-
+    """ Helper for HTML Views (form elements etc.)
+    """
     def __init__(self, st:streamlit):
         self.cats = pyquiz.entity.Categories()
         self.cfg = pyquiz.config.Config()
