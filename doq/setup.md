@@ -1,4 +1,6 @@
-# Setup Beispiel für  UNIX like OS (MacOS, Linux, Solaris etc.) 
+# Setup Beispiel 
+
+Komplett für  UNIX like OS (MacOS, Linux, Solaris etc.) -> für Wintendo Boxen mit Hinweisen
 
 ## Repo clonen
 
@@ -18,6 +20,12 @@
 
 <code><span style="color:green">(.venv)</span> sven@Thanos pyquiz % </code>
 
+Für Wintendo Boxen:
+
+```PS
+.venv\Scripts\activate
+```
+
 ## Dependencies AUFLÖSEN
 
 <code><span style="color:green">(.venv)</span> sven@Thanos pyquiz % </code><kbd>pip -r req.txt</kbd>
@@ -29,8 +37,4 @@ Bootstrap starten mit Umlenkung von ```STDIN``` und ```STDOUT``` nach ```dev/nul
 (.venv) svenschrodt@Thanos pyquiz % python -m streamlit run Home.py  > /dev/null  2>&1 &
 ```
 
-## Für Wintendo Boxen beachten
-
-```
-.venv\Scripts\activate
-```
+## 
