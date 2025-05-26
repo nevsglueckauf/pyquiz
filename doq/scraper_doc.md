@@ -6,7 +6,7 @@ sequenceDiagram
     participant pd as Python<br/>lib pandas
     participant Py as Python<br/>lib requests
     participant Api as Open Trivia DB
-    rect rgb(12, 150, 23)
+    rect rgb(161, 241, 168)
         loop Every {TIME_INTERVAL}
             
             Py->>Api: HTTP Request - Get(MAX_AMT)
@@ -16,7 +16,7 @@ sequenceDiagram
             Py->>pd: Add data to DataFrame
         end
     end
-    rect rgb(13, 18, 239)
+    rect rgb(96, 98, 226)
         alt Persist(data)
             Py->>FileSystem: JSON 
         else 
