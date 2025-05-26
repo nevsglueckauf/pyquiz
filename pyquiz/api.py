@@ -20,13 +20,17 @@ class Endpoints:
 
 
 class OTDBApi:
-    req: requests
-    dta: dict
+    req: requests = None
+    dta: dict = None
     main_uri: str = Endpoints.RTV_AMNT_QST
-    response_code: int
+    response_code: int = 666
+    session_token:str = None
 
+    use_tok:bool = True
+    
     def __init__(self):
-        pass
+        if self.use_tok:
+            self.get_session_token()
 
     def get_questions_raw(self, number: int = 10) -> dict:
         response = requests.get(self.main_uri.format(number))
@@ -34,4 +38,18 @@ class OTDBApi:
         self.dta = response.json()
         return self.dta["results"]
     
+    def get_session_token(self):
+        response = requests.get(Endpoints.RETR_SESS_TKN_URI)
+        self.response_code = response.status_code
+        self.dta = response.json()
+        self.session_token = self.dta['token']
+        return response
     
+    def get_foo(self):
+        uri = self.__sanitize_uri(Endpoints.RTV_AMNT_QST.format(5))
+        return uri
+    
+    def __sanitize_uri(self, uri:str) -> str:
+        if self.use_tok:
+            uri += '&token='+self.session_token
+        return uri

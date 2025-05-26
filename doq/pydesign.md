@@ -37,6 +37,7 @@ Sub-Package für die Repräsentation der Daten als Entity-Instanzen
 classDiagram
     Controller *-- ViewHelper
     Controller *-- OTDBApi
+    OTDBApi *-- Endpoints
     Runner <|-- CliRunner
     QuestionList "1" --> "*" Question
 
@@ -57,6 +58,9 @@ classDiagram
     class OTDBApi{
         + __ init__(self)
         + get_questions_raw(self, number: int = 10)
+    }
+
+    class Endpoints{
     }
  
     class Runner{

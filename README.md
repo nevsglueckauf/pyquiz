@@ -25,6 +25,7 @@ Ratespiel  mit Fragen der [Open Trivia DB](https://opentdb.com/) (und eigenen - 
     - [Non- "Python Standard Library" Packages](doq/non_psl_libs.md)
     - [Coding Styles](doq/ccc.md)
     - [Python spez.](doq/pydesign.md)
+    - [Code Beispiele (Basic usage)](doq/code_ex.md)
 
 
 ## Persistenz vs. Live
