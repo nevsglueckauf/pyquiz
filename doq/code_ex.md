@@ -7,7 +7,7 @@ import pyquiz.api
 
 api = pyquiz.api.OTDBApi()
 
-api.
+api.get_questions(8)
 ```
 
 

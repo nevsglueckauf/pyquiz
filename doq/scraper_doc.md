@@ -29,3 +29,12 @@ sequenceDiagram
     end
 
 ```
+
+```mermaid
+flowchart LR
+    id1(Netw./Appl.)
+    id2(Persistenz)
+    style id1 fill:#a1f1a8
+    style id2 fill:#6062e2
+
+```
